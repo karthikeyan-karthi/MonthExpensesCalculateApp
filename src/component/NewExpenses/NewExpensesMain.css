@@ -1,0 +1,50 @@
+
+.NewExpenses-Main{
+
+    /* background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); */
+    background: linear-gradient( 90deg, #AA43FF, #460979,#560d92, #AA43FF);
+    background-size: 200% 700%;
+    border: 1px solid rgb(66, 65, 65);
+    border-radius: 15px;
+    width: 50rem;
+    margin: 2rem auto;
+    min-height: 15rem;
+    position: relative;
+    animation: anima 2s ease-in-out infinite 
+   
+}
+
+@keyframes anima {
+    
+    0%{
+        background-position: 0%;
+    }
+    50%{
+        background-position: 100%;
+    }
+    100%{
+        background-position: 0%;
+    }
+}
+
+.btn-cancel{
+
+    padding: 1rem;
+    border-radius: 15px;
+    position: absolute;
+    top: 5.5rem;
+    left: 20rem;
+    border: none;
+    background-color: rgb(49, 9, 87);
+    color: white;
+    box-shadow: 0 0 5px 2px rgb(73, 10, 73);
+ 
+}
+
+
+.btn-cancel:hover{
+    background-color: #9023e9;
+    transition: 0.5s;
+    cursor: pointer;
+
+}

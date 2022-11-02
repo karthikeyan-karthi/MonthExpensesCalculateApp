@@ -1,0 +1,87 @@
+.inputrow{
+    display: flex;
+    flex-direction: row;
+}
+.lable-title{
+
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+form{
+    position: relative;
+}
+
+.Cancel-btn{
+    top: 8.9rem;
+    right: 12rem;
+    border-radius: 10px;
+    background-color: rgb(38, 7, 59);
+    color: white;
+    margin-top: 2rem;
+    position: absolute;
+    padding: 1rem;
+    border: none;
+    
+}
+.input-title{
+
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.input-text{
+    width: 15rem;
+    padding:0.4rem;
+    border-radius: 5px;
+    border: 1px solid rgb(175, 109, 236);
+    margin-top: 0.3rem;
+}
+/* Amount */
+.input-Amount{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.lable-amount{
+ 
+    font-family: sans-serif;
+    font-weight: bold;   
+}
+.input-number{
+    width: 15rem;
+    padding:0.4rem;
+    border-radius: 5px;
+    border: 1px solid rgb(175, 109, 236);
+    margin-top: 0.3rem;   
+}
+/* date */
+.input-date{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.lable-date{
+    font-family: sans-serif;
+    font-weight: bold;   
+}
+.input-type__date{
+    width: 15rem;
+    padding:0.4rem;
+    border-radius: 5px;
+    border: 1px solid rgb(175, 109, 236);
+    margin-top: 0.3rem;      
+}
+.btn{
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgb(38, 7, 59);
+    color: white;
+    border: 1px solid rgb(38, 7, 59) ;
+    font-family: sans-serif;
+    display: flex;
+    margin-left: auto;
+margin-right: 2rem;
+margin-bottom: 2rem;
+}
